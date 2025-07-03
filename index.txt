@@ -4,7 +4,7 @@ vCard - Personal Portfolio
 
 alt = Midhun Nk
 Midhun Nk
-Web developer
+Full Stack Developer
 
 Show Contacts
 
@@ -12,7 +12,7 @@ Email
 midhunnk2024@gmail.com
 
 Phone
-+91 8594085515
++91 7994863515
 
 Birthday
 April 30, 2003
@@ -32,9 +32,11 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I'm a Full Stack Developer with expertise in Python (Django), React, and Flutter, passionate about building end-to-end digital experiences across web and mobile platforms. I specialize in crafting robust backends with Django and seamless frontends using React, while also developing scalable cross-platform mobile apps using Flutter and Firebase.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+Whether it's a real-time dashboard, an e-commerce site, or a mobile-first app, I combine clean architecture, responsive design, and performance-driven code to solve real-world problems. With hands-on experience in REST APIs, authentication systems, and cloud integration, I bring full-stack versatility to every project.
+
+
 
 
 ## service
@@ -46,16 +48,15 @@ Web design
 The most modern and high-quality design made at a professional level.
 
 alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+I build robust, scalable web applications using Python (Django) for backend and React for dynamic frontends — combining performance with clean code.
 
 alt = mobile app icon
 Mobile apps
-Professional development of applications for iOS and Android.
+I create smooth, cross-platform mobile apps using Flutter and Firebase — from design to deployment, focused on speed, scale, and user experience.
 
 alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
+Content Creation & Personal Branding
+I document my coding journey and build tech content that educates, inspires, and connects with the developer community through platforms like Instagram and LinkedIn.
 
 
 ## testimonials
