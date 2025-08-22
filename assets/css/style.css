@@ -2036,7 +2036,11 @@ textarea.form-input::-webkit-resizer {
   --retro-red: #ff5555;
   --ff-retro: "Press Start 2P", monospace;
 }
-
+.fav {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 body {
   /* background-color: var(--retro-bg); */
   font-family: var(--ff-retro);
