@@ -2038,7 +2038,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 body {
-  background-color: var(--retro-bg);
+  /* background-color: var(--retro-bg); */
   font-family: var(--ff-retro);
 }
 
