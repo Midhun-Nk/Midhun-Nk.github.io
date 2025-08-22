@@ -559,10 +559,6 @@
                   <button data-select-item>All</button>
                 </li>
 
-                <!-- <li class="select-item">
-                  <button data-select-item>Web design</button>
-                </li> -->
-
                 <li class="select-item">
                   <button data-select-item>Applications</button>
                 </li>
@@ -606,7 +602,33 @@
                 data-category="applications"
               >
                 <a
-                  href="https://github.com/MiKeStudi0/Disaster-Management.git"
+                  href="https://github.com/Midhun-Nk/BloodDonation.git"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/blood-donation.png"
+                      alt="blood-donation"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Blood Donation App</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://github.com/Midhun-Nk/Ecommerce-Application.git"
                   target="_blank"
                 >
                   <figure class="project-img">
@@ -643,7 +665,7 @@
 
                     <img
                       src="./assets/images/realtimecode.png"
-                      alt="arrival"
+                      alt="real-time-collab-codeeditor"
                       loading="lazy"
                     />
                   </figure>
@@ -669,7 +691,7 @@
 
                     <img
                       src="./assets/images/ATSResume.png"
-                      alt="arrival"
+                      alt="ATS-Resume-Builder"
                       loading="lazy"
                     />
                   </figure>
@@ -822,36 +844,36 @@
           <section class="contact-form">
             <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="#" class="form" data-form>
+            <form id="contactForm" class="form" onsubmit="sendEmail(event)">
               <div class="input-wrapper">
                 <input
                   type="text"
+                  id="fullname"
                   name="fullname"
                   class="form-input"
                   placeholder="Full name"
                   required
-                  data-form-input
                 />
 
                 <input
                   type="email"
+                  id="email"
                   name="email"
                   class="form-input"
                   placeholder="Email address"
                   required
-                  data-form-input
                 />
               </div>
 
               <textarea
+                id="message"
                 name="message"
                 class="form-input"
                 placeholder="Your Message"
                 required
-                data-form-input
               ></textarea>
 
-              <button class="form-btn" type="submit" disabled data-form-btn>
+              <button class="form-btn" type="submit">
                 <ion-icon name="paper-plane"></ion-icon>
                 <span>Send Message</span>
               </button>
@@ -877,5 +899,23 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+      function sendEmail(event) {
+        event.preventDefault(); // Stop form from refreshing the page
+
+        const name = document.getElementById("fullname").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        // Subject and body for email
+        const subject = `New message from ${name}`;
+        const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0A${message}`;
+
+        // Open default mail client
+        window.location.href = `mailto:midhunnk2023@gmail.com?subject=${encodeURIComponent(
+          subject
+        )}&body=${body}`;
+      }
+    </script>
   </body>
 </html>
