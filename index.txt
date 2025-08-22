@@ -239,3 +239,11 @@ Email address
 Your Message
 
 Send Message
+
+
+ Certifications
+ • MERNStack Development Course,KASE, Edunet Foundation and EY
+ • Python Django | The Complete Django Web Development
+ • Data Structures using Python
+ • IEEE Hackathon, IEEE SPS Kerala Chapter
+ • Responsive Web Design
